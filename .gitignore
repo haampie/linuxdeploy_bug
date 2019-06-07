@@ -1,0 +1,8 @@
+Example.AppDir/.DirIcon
+Example.AppDir/AppRun
+Example.AppDir/usr/bin/example
+Example.AppDir/usr/lib/
+deps/libdep1.so
+deps/libdep2.so
+linuxdeployqt-6-x86_64.AppImage
+

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download linuxdeployqt and make executable
-wget https://github.com/probonopd/linuxdeployqt/releases/download/6/linuxdeployqt-6-x86_64.AppImage
+[ ! -f linuxdeployqt-6-x86_64.AppImage ] && wget https://github.com/probonopd/linuxdeployqt/releases/download/6/linuxdeployqt-6-x86_64.AppImage
 chmod a+x linuxdeployqt-6-x86_64.AppImage
 
 # Compile the project
